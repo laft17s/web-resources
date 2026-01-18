@@ -18,7 +18,7 @@ Each directory in this repository represents a specific category of web resource
 | [🎴 Cards](file:///Users/sean17nl/Code/web/cards) | Futuristic flat design card models (Rounded, Squircle, Rectangular, Free Art). |
 | [📜 Scrollbar](file:///Users/sean17nl/Code/web/scrollbar) | Custom, sleek scrollbar styles for modern browsers. |
 | [🍔 Menu Bar](file:///Users/sean17nl/Code/web/menu-bar) | Interactive and responsive navigation components. |
-| [🪟 Modals](file:///Users/sean17nl/Code/web/modals) | Clean and functional modal window implementations. |
+| [🪟 Modals](file:///Users/sean17nl/Code/web/modals) | Futuristic flat design modal models (Rounded, Squircle, Rectangular, Cyber Nexus). |
 
 ## 🛠️ How to Use
 

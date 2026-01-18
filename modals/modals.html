@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futuristic Modals Showcase</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/modals.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Futuristic Modals</h1>
+            <p class="subtitle">Premium flat design modal components for modern web interfaces.</p>
+        </header>
+
+        <div class="modal-grid">
+            <!-- 1. Rounded Modal Card -->
+            <div class="modal-card">
+                <div class="card-title">Rounded Vision</div>
+                <p>Smooth 32px rounded corners with a subtle glassmorphism effect.</p>
+                <div class="button-group">
+                    <button class="btn btn-preview" data-target="modal-rounded">Preview Modal</button>
+                    <button class="btn btn-view" data-id="modal-rounded">View Code</button>
+                </div>
+            </div>
+
+            <!-- 2. Squircle Modal Card -->
+            <div class="modal-card">
+                <div class="card-title">Squircle Core</div>
+                <p>Mathematical squircle shape for a premium, high-end feel.</p>
+                <div class="button-group">
+                    <button class="btn btn-preview" data-target="modal-squircle">Preview Modal</button>
+                    <button class="btn btn-view" data-id="modal-squircle">View Code</button>
+                </div>
+            </div>
+
+            <!-- 3. Rectangular Modal Card -->
+            <div class="modal-card">
+                <div class="card-title">Industrial Edge</div>
+                <p>Sharp, technical design with a bold top accent border.</p>
+                <div class="button-group">
+                    <button class="btn btn-preview" data-target="modal-rectangular">Preview Modal</button>
+                    <button class="btn btn-view" data-id="modal-rectangular">View Code</button>
+                </div>
+            </div>
+
+            <!-- 4. Free Art Modal Card -->
+            <div class="modal-card">
+                <div class="card-title">Cyber Nexus</div>
+                <p>Asymmetrical geometry using custom clip-paths for a unique look.</p>
+                <div class="button-group">
+                    <button class="btn btn-preview" data-target="modal-free">Preview Modal</button>
+                    <button class="btn btn-view" data-id="modal-free">View Code</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modals -->
+    <div class="modal-overlay" id="modal-rounded">
+        <div class="modal-content modal-rounded">
+            <span class="close-modal">&times;</span>
+            <h2>Rounded Vision</h2>
+            <p>This is a smooth, futuristic modal with 32px rounded corners and glassmorphism. Perfect for friendly,
+                modern interfaces.</p>
+        </div>
+    </div>
+
+    <div class="modal-overlay" id="modal-squircle">
+        <div class="modal-content modal-squircle">
+            <span class="close-modal">&times;</span>
+            <h2>Squircle Core</h2>
+            <p>The squircle provides a unique geometric balance that feels more premium than a standard rounded
+                rectangle.</p>
+        </div>
+    </div>
+
+    <div class="modal-overlay" id="modal-rectangular">
+        <div class="modal-content modal-rectangular">
+            <span class="close-modal">&times;</span>
+            <h2>Industrial Edge</h2>
+            <p>Sharp corners and a bold top border create a high-tech, industrial aesthetic for technical applications.
+            </p>
+        </div>
+    </div>
+
+    <div class="modal-overlay" id="modal-free">
+        <div class="modal-content modal-free">
+            <span class="close-modal">&times;</span>
+            <h2>Cyber Nexus</h2>
+            <p>Custom clip-paths allow for asymmetrical, non-standard shapes that truly stand out in a futuristic UI.
+            </p>
+        </div>
+    </div>
+
+    <!-- Meta Modal (Code View) -->
+    <div class="modal-overlay meta-modal" id="meta-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Modal Component Code</h2>
+
+            <p>HTML</p>
+            <pre id="html-code" class="code-block"></pre>
+            <button class="btn-copy" data-copy="html">Copy HTML</button>
+
+            <p>CSS</p>
+            <pre id="css-code" class="code-block"></pre>
+            <button class="btn-copy" data-copy="css">Copy CSS</button>
+        </div>
+    </div>
+
+    <div id="toast-container" class="toast-container"></div>
+
+    <script src="js/modals.js"></script>
+</body>
+
+</html>
