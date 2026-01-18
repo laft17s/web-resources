@@ -19,6 +19,7 @@ Each directory in this repository represents a specific category of web resource
 | [📜 Scrollbar](file:///Users/sean17nl/Code/web/scrollbar) | Custom, sleek scrollbar styles for modern browsers. |
 | [🍔 Menu Bar](file:///Users/sean17nl/Code/web/menu-bar) | Interactive and responsive navigation components. |
 | [🪟 Modals](file:///Users/sean17nl/Code/web/modals) | Futuristic flat design modal models (Rounded, Squircle, Rectangular, Cyber Nexus). |
+| [🔘 Buttons](file:///Users/sean17nl/Code/web/buttons) | Futuristic flat design button models (Rounded, Squircle, Rectangular, Cyber). |
 
 ## 🛠️ How to Use
 

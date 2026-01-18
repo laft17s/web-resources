@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futuristic Buttons Showcase</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/buttons.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Futuristic Buttons</h1>
+            <p class="subtitle">Premium flat design button components with multiple color variants.</p>
+        </header>
+
+        <div class="button-grid">
+            <!-- 1. Rounded Buttons -->
+            <div class="button-card">
+                <div class="card-title">Rounded</div>
+                <div class="variant-showcase">
+                    <button class="f-btn btn-rounded primary">Primary</button>
+                    <button class="f-btn btn-rounded success">Success</button>
+                    <button class="f-btn btn-rounded warn">Warn</button>
+                    <button class="f-btn btn-rounded danger">Danger</button>
+                    <button class="f-btn btn-rounded info">Info</button>
+                    <button class="f-btn btn-rounded contrast">Contrast</button>
+                    <button class="f-btn btn-rounded link">Link</button>
+                </div>
+                <button class="btn-view" data-id="btn-rounded">View Code</button>
+            </div>
+
+            <!-- 2. Squircle Buttons -->
+            <div class="button-card">
+                <div class="card-title">Squircle</div>
+                <div class="variant-showcase">
+                    <button class="f-btn btn-squircle primary">Primary</button>
+                    <button class="f-btn btn-squircle success">Success</button>
+                    <button class="f-btn btn-squircle warn">Warn</button>
+                    <button class="f-btn btn-squircle danger">Danger</button>
+                    <button class="f-btn btn-squircle info">Info</button>
+                    <button class="f-btn btn-squircle contrast">Contrast</button>
+                    <button class="f-btn btn-squircle link">Link</button>
+                </div>
+                <button class="btn-view" data-id="btn-squircle">View Code</button>
+            </div>
+
+            <!-- 3. Rectangular Buttons -->
+            <div class="button-card">
+                <div class="card-title">Rectangular</div>
+                <div class="variant-showcase">
+                    <button class="f-btn btn-rectangular primary">Primary</button>
+                    <button class="f-btn btn-rectangular success">Success</button>
+                    <button class="f-btn btn-rectangular warn">Warn</button>
+                    <button class="f-btn btn-rectangular danger">Danger</button>
+                    <button class="f-btn btn-rectangular info">Info</button>
+                    <button class="f-btn btn-rectangular contrast">Contrast</button>
+                    <button class="f-btn btn-rectangular link">Link</button>
+                </div>
+                <button class="btn-view" data-id="btn-rectangular">View Code</button>
+            </div>
+
+            <!-- 4. Cyber Buttons -->
+            <div class="button-card">
+                <div class="card-title">Cyber</div>
+                <div class="variant-showcase">
+                    <button class="f-btn btn-cyber primary">Primary</button>
+                    <button class="f-btn btn-cyber success">Success</button>
+                    <button class="f-btn btn-cyber warn">Warn</button>
+                    <button class="f-btn btn-cyber danger">Danger</button>
+                    <button class="f-btn btn-cyber info">Info</button>
+                    <button class="f-btn btn-cyber contrast">Contrast</button>
+                    <button class="f-btn btn-cyber link">Link</button>
+                </div>
+                <button class="btn-view" data-id="btn-cyber">View Code</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Code Modal -->
+    <div id="code-modal" class="modal hidden">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Button Component Code</h2>
+
+            <p>HTML (Primary Variant Example)</p>
+            <pre id="html-code" class="code-block"></pre>
+            <button class="btn-copy" data-copy="html">Copy HTML</button>
+
+            <p>CSS (Base + Color Utility)</p>
+            <pre id="css-code" class="code-block"></pre>
+            <button class="btn-copy" data-copy="css">Copy CSS</button>
+        </div>
+    </div>
+
+    <div id="toast-container" class="toast-container"></div>
+
+    <script src="js/buttons.js"></script>
+</body>
+
+</html>
