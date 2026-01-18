@@ -15,7 +15,7 @@ Each directory in this repository represents a specific category of web resource
 | Category | Description |
 | :--- | :--- |
 | [🌀 Spinners](file:///Users/sean17nl/Code/web/spinners) | Modern loading indicators with a unified code view popup. |
-| [🎴 Cards](file:///Users/sean17nl/Code/web/cards) | Premium card layouts for content display. |
+| [🎴 Cards](file:///Users/sean17nl/Code/web/cards) | Futuristic flat design card models (Rounded, Squircle, Rectangular, Free Art). |
 | [📜 Scrollbar](file:///Users/sean17nl/Code/web/scrollbar) | Custom, sleek scrollbar styles for modern browsers. |
 | [🍔 Menu Bar](file:///Users/sean17nl/Code/web/menu-bar) | Interactive and responsive navigation components. |
 | [🪟 Modals](file:///Users/sean17nl/Code/web/modals) | Clean and functional modal window implementations. |

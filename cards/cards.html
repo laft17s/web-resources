@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futuristic Cards Showcase</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/cards.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Futuristic Cards</h1>
+            <p class="subtitle">Premium flat design card components for modern web interfaces.</p>
+        </header>
+
+        <div class="card-grid">
+            <!-- 1. Rounded Card -->
+            <div class="futuristic-card card-rounded">
+                <div class="card-icon">✦</div>
+                <div class="card-title">Rounded Vision</div>
+                <div class="card-desc">A classic futuristic look with smooth 24px rounded corners and a subtle
+                    glassmorphism effect.</div>
+                <button class="btn-view" data-id="card-rounded">View Code</button>
+            </div>
+
+            <!-- 2. Squircle Card -->
+            <div class="futuristic-card card-squircle">
+                <div class="card-icon">⬢</div>
+                <div class="card-title">Squircle Core</div>
+                <div class="card-desc">The perfect balance between a square and a circle, providing a modern, premium
+                    feel.</div>
+                <button class="btn-view" data-id="card-squircle">View Code</button>
+            </div>
+
+            <!-- 3. Rectangular Card -->
+            <div class="futuristic-card card-rectangular">
+                <div class="card-icon">◼</div>
+                <div class="card-title">Industrial Edge</div>
+                <div class="card-desc">Sharp, rectangular design with a bold accent border for a high-tech, industrial
+                    aesthetic.</div>
+                <button class="btn-view" data-id="card-rectangular">View Code</button>
+            </div>
+
+            <!-- 4. Free Art Card -->
+            <div class="futuristic-card card-free">
+                <div class="card-icon">▲</div>
+                <div class="card-title">Cyber Nexus</div>
+                <div class="card-desc">Asymmetrical geometry and custom clip-paths for a truly unique, futuristic
+                    interface.</div>
+                <button class="btn-view" data-id="card-free">View Code</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Code Modal -->
+    <div id="code-modal" class="modal hidden">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Card Component Code</h2>
+
+            <p>HTML</p>
+            <pre id="html-code" class="code-block"></pre>
+            <button class="btn-copy" data-copy="html">Copy HTML</button>
+
+            <p>CSS</p>
+            <pre id="css-code" class="code-block"></pre>
+            <button class="btn-copy" data-copy="css">Copy CSS</button>
+        </div>
+    </div>
+
+    <div id="toast-container" class="toast-container"></div>
+
+    <script src="js/cards.js"></script>
+</body>
+
+</html>
