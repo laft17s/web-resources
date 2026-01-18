@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Spinners Showcase</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>CSS Spinners</h1>
+            <p class="subtitle">A collection of modern, copy-paste ready loading spinners for your next project.</p>
+        </header>
+
+        <div class="spinner-grid">
+            <!-- Spinner 1 -->
+            <div class="spinner-card">
+                <div class="spinner-preview">
+                    <div class="spinner-1"></div>
+                </div>
+                <div class="card-info">
+                    <div class="card-title">Simple Border</div>
+                    <div class="action-buttons">
+                        <button class="btn btn-view" data-id="spinner-1">View Code</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Spinner 2 -->
+            <div class="spinner-card">
+                <div class="spinner-preview">
+                    <div class="spinner-2"></div>
+                </div>
+                <div class="card-info">
+                    <div class="card-title">Dual Ring</div>
+                    <div class="action-buttons">
+                        <button class="btn btn-view" data-id="spinner-2">View Code</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Spinner 3 -->
+            <div class="spinner-card">
+                <div class="spinner-preview">
+                    <div class="spinner-3"></div>
+                </div>
+                <div class="card-info">
+                    <div class="card-title">Growing Pulse</div>
+                    <div class="action-buttons">
+                        <button class="btn btn-view" data-id="spinner-3">View Code</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Spinner 4 -->
+            <div class="spinner-card">
+                <div class="spinner-preview">
+                    <div class="spinner-4"></div>
+                </div>
+                <div class="card-info">
+                    <div class="card-title">Gradient Border</div>
+                    <div class="action-buttons">
+                        <button class="btn btn-view" data-id="spinner-4">View Code</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="toast-container" class="toast-container"></div>
+    <!-- Code Modal -->
+    <div id="code-modal" class="modal hidden">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Spinner Code</h2>
+            <pre id="html-code" class="code-block"></pre>
+            <button class="btn btn-copy" data-copy="html">Copy HTML</button>
+            <pre id="css-code" class="code-block"></pre>
+            <button class="btn btn-copy" data-copy="css">Copy CSS</button>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
